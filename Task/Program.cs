@@ -111,7 +111,7 @@ public static class Program
                 {
                     count++;
                     string student = reader.ReadString();
-                    ProcessStudent(student, count);
+                    ProcessStudent(student);
                 }
                 catch(Exception)
                 {
@@ -125,14 +125,8 @@ public static class Program
         }
     }
 
-    private static void ProcessStudent(string student, int order)
+    private static void ProcessStudent(string student)
     {
-        var parts = student.Split('*');
-        Console.WriteLine($"Студент #{order}");
-        Console.WriteLine($"Прізвище: {parts.ElementAt(0)}");
-        for(int i = 0; i < 5; i++)
-        {
-            Console.WriteLine($"Оцінка за предмет {i + 1}: {parts.ElementAt(i + 1)}");
-        }
+        Console.WriteLine(student);
     }
 }
