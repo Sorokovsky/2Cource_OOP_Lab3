@@ -104,12 +104,10 @@ public static class Program
         if(File.Exists(FILE_PATH))
         {
             using BinaryReader reader = new(File.Open(FILE_PATH, FileMode.Open));
-            int count = 0;
             while (reader.BaseStream.Position < reader.BaseStream.Length)
             {
                 try
                 {
-                    count++;
                     string student = reader.ReadString();
                     ProcessStudent(student);
                 }
