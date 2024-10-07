@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "D:\\progects\\OOP\\2_course\\lab 3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30013CE6-E9D0-4F03-8626-9E8805DA6D8F}|Task\\Task.csproj|d:\\progects\\oop\\2_course\\lab 3\\task\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30013CE6-E9D0-4F03-8626-9E8805DA6D8F}|Task\\Task.csproj|solutionrelative:task\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7D0C7116-F169-4B36-8B27-4E428772C0FA}|Task 2\\Task 2.csproj|d:\\progects\\oop\\2_course\\lab 3\\task 2\\mark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D0C7116-F169-4B36-8B27-4E428772C0FA}|Task 2\\Task 2.csproj|solutionrelative:task 2\\mark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0C7116-F169-4B36-8B27-4E428772C0FA}|Task 2\\Task 2.csproj|d:\\progects\\oop\\2_course\\lab 3\\task 2\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D0C7116-F169-4B36-8B27-4E428772C0FA}|Task 2\\Task 2.csproj|solutionrelative:task 2\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0C7116-F169-4B36-8B27-4E428772C0FA}|Task 2\\Task 2.csproj|d:\\progects\\oop\\2_course\\lab 3\\task 2\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D0C7116-F169-4B36-8B27-4E428772C0FA}|Task 2\\Task 2.csproj|solutionrelative:task 2\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0C7116-F169-4B36-8B27-4E428772C0FA}|Task 2\\Task 2.csproj|d:\\progects\\oop\\2_course\\lab 3\\task 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D0C7116-F169-4B36-8B27-4E428772C0FA}|Task 2\\Task 2.csproj|solutionrelative:task 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0C7116-F169-4B36-8B27-4E428772C0FA}|Task 2\\Task 2.csproj|d:\\progects\\oop\\2_course\\lab 3\\task 2\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D0C7116-F169-4B36-8B27-4E428772C0FA}|Task 2\\Task 2.csproj|solutionrelative:task 2\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D0C7116-F169-4B36-8B27-4E428772C0FA}|Task 2\\Task 2.csproj|d:\\progects\\oop\\2_course\\lab 3\\task 2\\university.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D0C7116-F169-4B36-8B27-4E428772C0FA}|Task 2\\Task 2.csproj|solutionrelative:task 2\\university.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,14 +47,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\progects\\OOP\\2_course\\lab 3\\Task\\Program.cs",
-              "RelativeDocumentMoniker": "Task\\Program.cs",
-              "ToolTip": "D:\\progects\\OOP\\2_course\\lab 3\\Task\\Program.cs",
-              "RelativeToolTip": "Task\\Program.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAwwGkAAABRAAAA",
+              "Title": "Mark.cs",
+              "DocumentMoniker": "D:\\progects\\OOP\\2_course\\lab 3\\Task 2\\Mark.cs",
+              "RelativeDocumentMoniker": "Task 2\\Mark.cs",
+              "ToolTip": "D:\\progects\\OOP\\2_course\\lab 3\\Task 2\\Mark.cs",
+              "RelativeToolTip": "Task 2\\Mark.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAAEQAAABeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T18:43:01.786Z",
+              "WhenOpened": "2024-10-07T15:18:46.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "University.cs",
+              "DocumentMoniker": "D:\\progects\\OOP\\2_course\\lab 3\\Task 2\\University.cs",
+              "RelativeDocumentMoniker": "Task 2\\University.cs",
+              "ToolTip": "D:\\progects\\OOP\\2_course\\lab 3\\Task 2\\University.cs",
+              "RelativeToolTip": "Task 2\\University.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T15:14:24.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Group.cs",
+              "DocumentMoniker": "D:\\progects\\OOP\\2_course\\lab 3\\Task 2\\Group.cs",
+              "RelativeDocumentMoniker": "Task 2\\Group.cs",
+              "ToolTip": "D:\\progects\\OOP\\2_course\\lab 3\\Task 2\\Group.cs",
+              "RelativeToolTip": "Task 2\\Group.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T15:10:23.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "D:\\progects\\OOP\\2_course\\lab 3\\Task 2\\Subject.cs",
+              "RelativeDocumentMoniker": "Task 2\\Subject.cs",
+              "ToolTip": "D:\\progects\\OOP\\2_course\\lab 3\\Task 2\\Subject.cs",
+              "RelativeToolTip": "Task 2\\Subject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T15:05:54.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\progects\\OOP\\2_course\\lab 3\\Task 2\\Student.cs",
+              "RelativeDocumentMoniker": "Task 2\\Student.cs",
+              "ToolTip": "D:\\progects\\OOP\\2_course\\lab 3\\Task 2\\Student.cs",
+              "RelativeToolTip": "Task 2\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T15:00:55.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\progects\\OOP\\2_course\\lab 3\\Task 2\\Program.cs",
+              "RelativeDocumentMoniker": "Task 2\\Program.cs",
+              "ToolTip": "D:\\progects\\OOP\\2_course\\lab 3\\Task 2\\Program.cs",
+              "RelativeToolTip": "Task 2\\Program.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAI0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T14:43:37.704Z",
               "EditorCaption": ""
             }
           ]
