@@ -19,5 +19,12 @@
             Console.Write("Введіть прізвище студента: "); 
             return new Student(Console.ReadLine());
         }
+
+        public override string ToString()
+        {
+            string result = string.Empty;
+            result += $"Прізвище: {Surname}.\n";
+            return result;
+        }
     }
 }

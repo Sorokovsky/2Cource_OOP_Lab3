@@ -20,6 +20,45 @@ public static class Program
                         }
                     case 1:
                         {
+                            Console.Write("Введіть кількість університетів: "); int count = Convert.ToInt32(Console.ReadLine());
+                            if(count < 0) count = 0;
+                            UNIVERSITIES.Clear();
+                            for(int i = 0; i < count; i++)
+                            {
+                                Console.WriteLine($"Введення {i + 1} університету.");
+                                UNIVERSITIES.AddLast(University.Enter());
+                            }
+                            WriteToFile();
+                            break;
+                        }
+                    case 2:
+                        {
+                            ReadFromFile();
+                            for(int i = 0; i < UNIVERSITIES.Count; i++)
+                            {
+                                Console.WriteLine($"#{i + 1}.");
+                                Console.WriteLine(UNIVERSITIES.ElementAt(i));
+                            }
+                            break;
+                        }
+                    case 3:
+                        {
+                            ReadFromFile();
+                            foreach(var univer in UNIVERSITIES)
+                            {
+                                foreach(var group in univer.Groups)
+                                {
+                                    foreach (var student in group.Students)
+                                    {
+                                        var studentMarks = group.Marks.Where(mark => mark.Student.Surname.Equals(student.Surname));
+                                        double avarage = studentMarks.Sum(x => x.Number) / studentMarks.Count();
+                                        if (avarage == 4.5)
+                                        {
+                                            Console.WriteLine($"Студент: {student.Surname}, Група: {group.Name}, Університет: {univer.Name}");
+                                        }
+                                    }
+                                }
+                            }
                             break;
                         }
                     default:
@@ -138,5 +177,11 @@ public static class Program
                 }
             }
         }
+    }
+
+    private static void WriteToFile()
+    {
+        using BinaryWriter writer = new(File.Open(FILE_PATH, FileMode.Create));
+        WriteUniversity(writer);
     }
 }

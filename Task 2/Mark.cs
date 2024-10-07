@@ -67,6 +67,16 @@
             Console.WriteLine($"Ви вибрали: {student + 1}-{subjects.ElementAt(student).Name}.");
             Console.Write("Введіть оцінку: "); int number = Convert.ToInt32(Console.ReadLine());
             return new Mark(students.ElementAt(student), subjects.ElementAt(subject), number);
-        } 
+        }
+
+
+        public override string ToString()
+        {
+            string result = string.Empty;
+            result += $"Предмет: {Subject.Name}.\n";
+            result += $"Студент: {Student.Surname}.\n";
+            result += $"Оцінка: {Number}.\n";
+            return result;
+        }
     }
 }

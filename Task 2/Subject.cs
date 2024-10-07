@@ -14,10 +14,15 @@
             
         }
 
-        public static Subject Enter(string name)
+        public static Subject Enter()
         {
             Console.Write("Введіть назву предмета: ");
-            return new Subject(name);
+            return new Subject(Console.ReadLine());
+        }
+
+        public override string ToString()
+        {
+            return $"Предмет: {Name}.\n";
         }
     }
 }
