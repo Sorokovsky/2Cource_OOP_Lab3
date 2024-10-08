@@ -18,9 +18,13 @@
                 {
                     _number = 0;
                 }
-                if(value > 5)
+                else if(value > 5)
                 {
                     _number = 5;
+                }
+                else 
+                {
+                    _number = value;
                 }
             }
         }
